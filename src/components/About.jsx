@@ -21,7 +21,7 @@ const About = () => {
         background for both personal and professional growth.
       </motion.p>
 
-      <div className='mt-20 flex sm:flex-nowrap flex-wrap gap-8'>
+      <div className='mt-20 flex sm:flex-nowrap flex-wrap gap-8 '>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
@@ -33,7 +33,7 @@ const About = () => {
 const ServiceCard = ({ index, title, icon }) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-    className='w-full bg-gradient-to-b from-sky-900 to-emerald-300 p-[1px] rounded-[20px] shadow-card'
+    className='w-full bg-gradient-to-b  from-sky-900 to-emerald-600 p-[1px] rounded-[20px] shadow-card'
   >
     <div
       options={{
@@ -49,7 +49,9 @@ const ServiceCard = ({ index, title, icon }) => (
         className='w-16 h-16 object-contain'
       />
 
-      <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
+      <h3 className='text-white font-lexend text-[20px] text-center'>
+        {title}
+      </h3>
     </div>
   </motion.div>
 )

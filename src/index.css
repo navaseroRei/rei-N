@@ -20,6 +20,30 @@
   display: block;
 }
 
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #234e6c 100%);
+  filter: blur(600px);
+}
+
+.blue2__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 2%, #006b66 100%);
+  filter: blur(100px);
+}
+.blue3__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 2%, #006b66 100%);
+  filter: blur(100px);
+}
+
+.cyan__gradient {
+  background: rgba(0, 247, 255, 0.4);
+  filter: blur(600px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(

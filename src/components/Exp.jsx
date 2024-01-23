@@ -16,7 +16,7 @@ const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: '#1d1836',
+        background: 'linear-gradient(to bottom, #234e6c, #059669)',
         color: '#fff',
       }}
       contentArrowStyle={{ borderRight: '7px solid  #232631' }}
@@ -67,7 +67,7 @@ const Experience = () => {
           Work Experience.
         </h2>
       </motion.div>
-
+      <div className='absolute -z-[40] w-[50%] h-[40%] left-[46%] rounded-full cyan__gradient top-96 ' />
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (

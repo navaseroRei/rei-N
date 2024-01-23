@@ -6,18 +6,22 @@ import Hero from './components/Hero'
 import Nav from './components/Nav'
 import Projects from './components/Projects'
 import Tech from './components/Tech'
+import PoweredBy from './components/PoweredBy'
 
 function App() {
   return (
     <BrowserRouter>
-      <div className='text-white relative z-0 bg-primary  '>
+      <div className='text-white relative z-0 bg-[#181818]  '>
         <Nav />
+
         <Hero />
         <About />
         <Exp />
         <Tech />
         <Projects />
+
         <Contact />
+        <PoweredBy />
       </div>
     </BrowserRouter>
   )
