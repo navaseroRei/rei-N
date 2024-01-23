@@ -102,7 +102,7 @@ const Contact = () => {
                 name='name'
                 value={form.name}
                 onChange={handleChange}
-                placeholder='Please tell me who you are? :)'
+                placeholder='Please tell me who you are'
                 className='bg-[#05180f] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               />
             </label>
