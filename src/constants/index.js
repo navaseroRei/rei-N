@@ -166,12 +166,12 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient',
+        name: 'firebase',
+        color: 'orange-text-gradient',
       },
       {
         name: 'tailwind',
-        color: 'pink-text-gradient',
+        color: 'blue-text-gradient',
       },
     ],
     image: findSpot,
@@ -192,7 +192,7 @@ const projects = [
       },
       {
         name: 'tailwind',
-        color: 'pink-text-gradient',
+        color: 'blue-text-gradient',
       },
     ],
     image: findSpot,
@@ -208,12 +208,12 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient',
+        name: 'firebase',
+        color: 'orange-text-gradient',
       },
       {
         name: 'tailwind',
-        color: 'pink-text-gradient',
+        color: 'blue-text-gradient',
       },
     ],
     image: findSpot,

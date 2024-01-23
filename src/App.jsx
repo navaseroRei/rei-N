@@ -18,10 +18,9 @@ function App() {
         <About />
         <Exp />
         <Tech />
+        <div className='absolute -z-[40] w-[30%] h-[30%] rounded-full blue__gradient  bottom-96 ' />
         <Projects />
-
         <Contact />
-        <PoweredBy />
       </div>
     </BrowserRouter>
   )
