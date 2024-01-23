@@ -21,7 +21,7 @@ const About = () => {
         background for both personal and professional growth.
       </motion.p>
 
-      <div className='mt-20 flex sm:flex-nowrap flex-wrap gap-8 '>
+      <div className=' mt-20 flex sm:flex-nowrap flex-wrap gap-8 '>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
@@ -46,7 +46,7 @@ const ServiceCard = ({ index, title, icon }) => (
       <img
         src={icon}
         alt='web-development'
-        className='w-16 h-16 object-contain'
+        className='w-16  h-16 object-contain'
       />
 
       <h3 className='text-white font-lexend text-[20px] text-center'>
