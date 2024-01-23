@@ -13,7 +13,7 @@ const Hero = () => {
           <img
             src={reiLogo}
             alt='reilogo'
-            className='hover:animate-spin-slow w-60 lg:w-80'
+            className='animate-spin-slow w-60 lg:w-80'
           />
         </div>
         <div className='   mt-10 space-y-2 '>
