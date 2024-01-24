@@ -124,7 +124,7 @@ const Contact = () => {
                 name='message'
                 value={form.message}
                 onChange={handleChange}
-                placeholder='Whats do you think?'
+                placeholder='What do you think?'
                 className='bg-[#05180f] py-4 px-6 placeholder:text-secondary  text-white rounded-lg outline-none border-none font-medium'
               />
             </label>
