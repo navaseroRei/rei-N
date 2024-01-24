@@ -27,8 +27,14 @@ import vite from '../assets/ic_vite.svg'
 import findSpot from '../assets/img_FindSpot.svg'
 import git from '../assets/ic_git.svg'
 import github from '../assets/ic_github.svg'
+import plantastic from '../assets/img_plantastic.png'
+import plantasticUIUX from '../assets/img_PlantasticUIUX.png'
+import mathinik from '../assets/img_mathinik.png'
 
 export {
+  mathinik,
+  plantastic,
+  plantasticUIUX,
   git,
   github,
   findSpot,

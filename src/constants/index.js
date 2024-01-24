@@ -24,6 +24,8 @@ import {
   reactLogo,
   findSpot,
   git,
+  plantastic,
+  mathinik,
 } from '../assets'
 
 export const navLinks = [
@@ -178,46 +180,46 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'FindSpot',
+    name: 'Plantastic',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque ipsa recusandae, ipsum voluptatem nisi deserunt laudantium aliquam, cumque vero iusto magnam optio deleniti.',
+      'Plantastic is a concise inventory system for plant vendors, allowing easy showcasing and management. Users explore diverse plants, with machine learning highlighting top-viewed products for optimized visibility.',
     tags: [
       {
-        name: 'react',
+        name: 'React Native',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: findSpot,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'FindSpot',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque ipsa recusandae, ipsum voluptatem nisi deserunt laudantium aliquam, cumque vero iusto magnam optio deleniti.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'firebase',
+        name: 'Firebase',
         color: 'orange-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'Custom CSS',
         color: 'blue-text-gradient',
       },
     ],
-    image: findSpot,
-    source_code_link: 'https://github.com/',
+    image: plantastic,
+    source_code_link: 'https://github.com/neilalden/plantastic',
+  },
+  {
+    name: 'Mathinik',
+    description:
+      'Mathinik is an intuitive learning system designed for teachers to engage students through quizzes. Teachers can create questions, and the app allows easy monitoring of student grades. User-friendly platform facilitating interactive learning and efficient grade tracking.',
+    tags: [
+      {
+        name: 'React Native',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Firebase',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'Custom CSS',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: mathinik,
+    source_code_link: 'https://github.com/neilalden/mathinik',
   },
 ]
 
