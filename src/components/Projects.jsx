@@ -3,7 +3,8 @@ import { styles } from '../styles'
 import { motion } from 'framer-motion'
 import { fadeIn, textVariant } from '../utils/motion'
 import { projects } from '../constants'
-import { github, reiLogo } from '../assets'
+import { github, pokefinderfilter, pokefinderpage, reiLogo } from '../assets'
+import { useState } from 'react'
 
 const Projects = () => {
   return (
@@ -44,12 +45,20 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => {
+  const [isHovered, setIsHovered] = useState(false)
+
   return (
     <>
       <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
-        <div className='relative  bg-gradient-to-b overflow-hidden items-center flex  from-sky-900/25 to-emerald-600/85 rounded-xl h-[230px]'>
+        <div
+          className='relative  bg-gradient-to-b overflow-hidden items-center flex  from-sky-900/25 to-emerald-600/85 rounded-xl h-[230px]'
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+        >
           <img
-            src={image}
+            src={
+              isHovered && image == pokefinderfilter ? pokefinderpage : image
+            }
             alt='project_image'
             className='w-full h-full object-scale-down  mt-2 rounded-2xl'
           />

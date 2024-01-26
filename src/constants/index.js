@@ -26,6 +26,8 @@ import {
   git,
   plantastic,
   mathinik,
+  pokefinderpage,
+  pokefinderfilter,
 } from '../assets'
 
 export const navLinks = [
@@ -138,24 +140,24 @@ const technologies = [
 
 const projects = [
   {
-    name: 'FindSpot',
+    name: 'PokemonAPI',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque ipsa recusandae, ipsum voluptatem nisi deserunt laudantium aliquam, cumque vero iusto magnam optio deleniti.',
     tags: [
       {
-        name: 'react',
+        name: 'Nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient',
+        name: 'react',
+        color: 'blue-text-gradient',
       },
       {
         name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
-    image: findSpot,
+    image: pokefinderfilter,
     source_code_link: 'https://github.com/',
   },
   {

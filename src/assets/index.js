@@ -30,8 +30,12 @@ import github from '../assets/ic_github.svg'
 import plantastic from '../assets/img_plantastic.png'
 import plantasticUIUX from '../assets/img_PlantasticUIUX.png'
 import mathinik from '../assets/img_mathinik.png'
+import pokefinderpage from '../assets/img_pfPage.png'
+import pokefinderfilter from '../assets/img_pfSearch.png'
 
 export {
+  pokefinderfilter,
+  pokefinderpage,
   mathinik,
   plantastic,
   plantasticUIUX,
