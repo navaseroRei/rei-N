@@ -7,6 +7,7 @@ import { github, pokefinderfilter, pokefinderpage, reiLogo } from '../assets'
 import { useState } from 'react'
 
 const Projects = () => {
+  console.log(projects[0])
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -28,9 +29,14 @@ const Projects = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex  gap-7'>
+      <div className='mt-20 flex flex-wrap md:flex-nowrap gap-7'>
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+          <ProjectCard
+            key={`project-${index}`}
+            index={index}
+            {...project}
+            firstItem={projects[0]}
+          />
         ))}
       </div>
     </>
@@ -40,6 +46,7 @@ const Projects = () => {
 const ProjectCard = ({
   index,
   name,
+  firstItem,
   description,
   tags,
   image,
